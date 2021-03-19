@@ -1,0 +1,360 @@
+/*
+Google Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap');
+
+/*
+Restart estilos padroes
+*/
+
+* {
+  margin: -3px 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*  Estilos Padrao  */
+
+.risco::after {
+  content: '';
+  display: block;
+  width: 338px;
+  height: 1px;
+  background: #e5e5e5;
+  margin: 45px 0;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+}
+
+.title h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: white;
+  margin: 35px 0;
+}
+
+.title p {
+  color: white;
+  font-size: 18px;
+  max-width: 1090px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 118px;;
+}
+
+/*  Fim Estilos Padrao  */
+
+/*
+Header
+*/
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 23px 0;
+}
+
+/*
+  Fim do Header
+*/
+
+body {
+
+}
+
+main img{
+  width: 100%;
+}
+
+
+#curso {
+  background: #331d48;
+  padding: 115px 0 100px;
+  background-image: url('../img/bg-curso.png');
+  background-attachment: fixed;
+}
+
+/*  Card  */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 410px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  padding: 37px 34px 30px;
+}
+
+.card .price {
+  display: flex;
+  align-items: center;
+}
+
+.card .price h3{
+  color: #331d48;
+  font-size: 57px;
+}
+
+.card .price span {
+  color: #331d48;
+  font-size: 30px;
+}
+
+strong {
+  font-size: 17px;
+  color: #959595;
+  font-weight: 400;
+}
+
+.card h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #959595;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.card a {
+  font-size: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #3aaa35;
+  padding: 19px 45px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 30px;
+}
+
+/*  Fim Card  */
+
+/*  Presencial  */
+
+#presencial {
+  padding: 115px 0 100px;
+}
+
+#presencial .title h2 {
+  color: #000;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#presencial .title h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #331d48;
+  margin: 35px 0;
+}
+
+#presencial .title p {
+  color: #000;
+  font-size: 18px;
+  max-width: 1090px;
+  width: 100%;
+}
+
+
+#presencial .card {
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
+/*  Fim Presencial  */
+
+/*  Blog  */
+
+.blog-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 49px;
+  margin-bottom: 58px;
+  margin-top: 115px;
+}
+
+#blog {
+  background: #331d48;
+  padding: 115px 0 100px;
+  background-image: url('../img/bg-blog.png');
+  background-repeat: no-repeat;
+}
+
+.blog {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#blog a {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  background: #e4c58c;
+  padding: 19px 75px;
+  border-radius: 5px;
+  display: block;
+  max-width: 255px;
+  margin: auto;
+}
+
+/*  Fim do Blog  */
+
+/*  Footer  */
+
+footer {
+  background: #e5e5e5;
+  padding: 85px 0 0;
+}
+
+.footer {
+  max-width: 833px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .info h2{
+  font-size: 21px;
+  color: #313131;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .info ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.footer .info ul li a {
+  font-size: 15px;
+  color: #313131;
+  text-decoration: none;
+}
+
+.footer h2::after {
+  content: '';
+  display: block;
+  width: 53px;
+  height: 2px;
+  background: #313131;
+  margin: 17px 0 45px;
+}
+
+.copy {
+  background: #d2d2d2;
+  padding: 32px 0;
+}
+
+.redes ul {
+  display: flex;
+  padding-right: 110px;
+}
+
+.redes ul li {
+  list-style: none;
+}
+
+.redes ul li a {
+  margin-right: 10px;
+  color: #313131;
+}
+
+/*  Fim do Footer  */
+
+@media only screen and (max-width : 1264px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .row {
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .blog-box {
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (max-width : 668px) {
+
+  header img {
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .risco::after {
+    width: 210px;
+    margin: 25px 0;
+  }
+
+  .blog img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .card a {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+
+  .card p {
+    margin-top: 40px;
+  }
+
+  #blog a {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer h2::after {
+    margin: 17px auto 25px;
+  }
+    .footer .info {
+      margin: 30px 0; 
+  }
+
+  .footer .redes ul {
+    padding-right: 0;
+    margin: 30px auto 0;
+  }
+}
